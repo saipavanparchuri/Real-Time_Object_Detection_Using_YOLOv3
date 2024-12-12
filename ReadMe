@@ -1,7 +1,7 @@
 Steps:
 To clone from github:
-mkdir ~/Desktop/CV_Project_Team5
-cd ~/Desktop/CV_Project_Team5
+mkdir ~/Desktop/Project
+cd ~/Desktop/Project
 
 
 Installations if not there:
@@ -14,10 +14,13 @@ pip3 install opencv-contrib-python
 
 
 curl -O https://pjreddie.com/media/files/yolov3.weights
+or
+Download from here:
+https://drive.google.com/drive/u/8/folders/1ArVTFhzENbjMDnIb4k1Me3ljaGMBY4UA
 
-python3 -m venv opencv_env
+python3 -m venv env
 
-source opencv_env/bin/activate
+source env/bin/activate
 
 pip3 install opencv-python
 
